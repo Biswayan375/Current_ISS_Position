@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Query with set interval</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        #map{
+            margin: auto;
+            height: 512px;
+            min-width: 300px;
+            max-width: 500px;
+        }
+        .moreShitTalk{
+            min-width: 300px;
+            max-width: 500px;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <div id="map"></div>
+
+    <p id="knowMore" style="color: blueviolet; cursor: pointer; text-align: center;">Know more about this boring data visualization!</p>
+    <div id="moreShitTalk">
+        <p>I was learning about APIs in the past few days from YouTube obviously. The channel is <a href='https://www.youtube.com/user/shiffman'>The Coding Train</a> of Daniel Shiffman. That man is a Great Teacher. He used this API called <a href="open-notify.org">open-notify.org</a> in one of his videos and I got the idea from that video to represent the data like this. I found this maps library on that API's website. They have built something similar to this as an example on their site and as here in my implementation, there is a link below to that library, same was in their website. Enough shit talk, <font color=blue>Happy Coding!</font></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
